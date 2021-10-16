@@ -44,10 +44,7 @@ class Quiz {
       fill("blue")
       textSize(20)
       text("*NOTE: Contestant who answered correct are highlighted in green color *",130,230)
-    }
-    //write code to add a note here
-
-var y = 300;
+      var y = 300;
     //write code to highlight contest who answered correctly
     for(var plr in allContestants){
       var correctAns= "2";
@@ -62,6 +59,10 @@ var y = 300;
       text(allContestants[plr].name, 400,y)
       y=y+30
     }
+    }
+    //write code to add a note here
+
+
   }
 
 }
